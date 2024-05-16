@@ -1,0 +1,401 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  
+
+}
+#scrollAreaWidgetContents {
+  background-color: rgba(0, 0, 0, 0);
+  border:0;
+}
+#HomePage {
+  background: qlineargradient(
+      x1: 0 y1: 0,
+      x2: 1 y2: 0,
+      stop: 0 rgba(46, 46, 46, 255),
+      stop: 1 rgb(0,0,0)
+    );
+  border: 0;
+
+}
+#scrollbar_frame {
+  background: rgba(0,0,0,0)
+    url("assets/bg-picture.png") no-repeat center center;
+  border: 0;
+}
+#scrollbar_frame_layout{
+  border: 0;
+}
+#UtensilsScrollArea{
+  background:rgba(0,0,0,0);
+  border: 0;
+}
+#category_frame{
+  background: rgba(0,0,0,0)
+    url("assets/bg-picture.png") no-repeat center center;
+}
+
+#CategoryPanel {
+  border-radius: 10px;
+  background-color: rgba(100, 255, 100, 0.9);
+}
+#CategoryPanel:hover {
+  background-color: rgba(255, 100, 100, 1);
+}
+#title_label {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+}
+
+#nav-logo {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+#navbar QPushButton {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: 0;
+}
+#navbar QPushButton:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  max-width: 150px;
+}
+
+#item_list_scrollbar_frame, #item_list_scrollbar_frame_layout{
+  border:0;
+  background: qlineargradient(
+      x1: 0 y1: 0,
+      x2: 1 y2: 0,
+      stop: 0 rgba(46, 46, 46, 255),
+      stop: 1 rgb(0,0,0)
+    );
+}
+#item_list_scrollbarArea {
+  
+  border:0;
+}
+#item_list_scrollAreaWidgetContents {
+   background: qlineargradient(
+      x1: 0 y1: 0,
+      x2: 1 y2: 0,
+      stop: 0 rgba(46, 46, 46, 255),
+      stop: 1 rgb(0,0,0)
+    );
+  border:0;
+}
+#item_list_scrollAreaWidgetLayout {
+  
+  border:0;
+
+}
+
+
+
+#item_frame_list:hover {
+  background-color: rgba(255,100,100,1);
+}
+#cover_frame {
+  border-radius: 10px;
+  background: qlineargradient(
+      x1: 0 y1: 0,
+      x2: 0 y2: 1,
+      stop: 0 rgba(15, 54, 7, .1),
+      stop: 1 rgba(0, 44, 26, 255)
+    );
+}
+#item_name {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+#title {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+#dialog_box {
+  background: qlineargradient(
+      x1: 0 y1: 0,
+      x2: 1 y2: 0,
+      stop: 0 rgba(46, 46, 46, 255),
+      stop: 1 rgb(0,0,0)
+    );
+  
+}
+#dialog_box * {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#CartList{
+  background: qlineargradient(
+      x1: 0 y1: 0,
+      x2: 1 y2: 0,
+      stop: 0 rgba(46, 46, 46, 255),
+      stop: 1 rgb(0,0,0)
+    );
+}
+
+#cart_list_scroll_frame {
+  background-color: violet;
+}
+
+#cart_list_scroll_content_frame {
+  background-color: yellow;
+
+}
+#CartItem {
+  background-color: rgba(100,200,100,0.9);
+  border-radius: 10px;
+}
+
+#cart_item_title{
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+
+}
+#cart_item_image {
+  border-image: 
+    url("assets/bg-picture.png") 0 0 0 0 center center;
+  border-radius: 10px;
+  
+}
+#cart_item_quantity {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+#CartItem #quantity_input{
+  background-color: rgba(0,0,0,0);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: 0;
+}
+#side_nav {
+  background: "#C93421";
+  
+}
+#side-nav QLabel{
+  color:white;
+  font-size : 20px;
+  font-weight: bold;
+}
+#side_nav #dashboard_button{
+  background:rgba(0,0,0,0);
+}
+
+#side_nav #item_management_button{
+  background:rgba(0,0,0,0);
+}
+#side_nav #borrow_requests_button{
+  background:rgba(0,0,0,0);
+}
+#side_nav #user_management_button{
+  background:rgba(0,0,0,0);
+}
+#side_nav #logout_button{
+  background:rgba(0,0,0,0);
+}
+#side_nav_active {
+  background:rgb(0,0,0);
+  border-radius: 30px;
+  border: 3px solid white;
+}
+#AdminHomePage {
+   background: qlineargradient(
+      x1: 0 y1: 0,
+      x2: 1 y2: 0,
+      stop: 0 rgba(46, 46, 46, 255),
+      stop: 1 rgb(0,0,0)
+    )
+    url("assets/bg-picture.png") no-repeat center center;
+  border: 0;
+}
+
+#latest_request_frame{
+  background-color: rgba(100,170,100,1);
+  border-radius: 10px;
+  margin: 20px;
+}
+
+#latest_request_scroll_area{
+  background-color: rgba(0,0,0,0);
+  border: 0;
+}
+#latest_request_scroll_widget {
+  background-color: rgba(0,0,0,0);
+  
+}
+#title {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+#borrowed_items_frame {
+  background-color: rgba(100,255,100,1);
+  border-radius: 10px;
+  margin: 20px;
+}
+
+#scroll_area_item_management {
+  background: rgba(0,0,0,0);
+  border: 0;
+}
+#scroll_widget {
+  background: rgba(0,0,0,0)
+}
+#item_frame {
+  background-color: rgba(0,0,0,0);
+  
+  border-bottom: 2px solid white;
+}
+#item_frame QLabel {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+#list_frame {
+  background: qlineargradient(
+      x1: 0 y1: 0,
+      x2: 0 y2: 1,
+      stop: 0 rgba(0, 66, 30, 150),
+      stop: 1 rgb(0,0,0)
+    );
+}
+#add_button_list_frame {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  background: rgba(0,0,0,0);
+}
+#add_button_list_frame:hover {
+  background: rgba(255,255,255,20);
+}
+#label_frame QLabel {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#add_item_page{
+  margin: auto 20px;
+}
+#add_item_grid_frame{
+  padding: 20px;
+  background: qlineargradient(
+      x1: 0 y1: 0,
+      x2: 0 y2: 1,
+      stop: 0 rgba(0, 66, 30, 150),
+      stop: 1 rgb(0,0,0)
+    );
+}
+
+#add_item_page QLabel{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+#add_item_page QLineEdit{
+  background-color: rgba(0,0,0,0);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid white;
+}
+
+#item_add_button {
+  background-color: rgba(0,0,0,0);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid white;
+  padding: 5px 25px;
+  
+}
+#item_add_button:hover {
+  background-color: rgba(255,255,255,0.2);
+}
+#add_item_title{
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+  
+}
+
+#add_request_button {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+}
+#add_request_button:hover {
+  background-color: #2e6b31;
+}
+
+#login_title{
+  color:white;
+  background:rgba(0,0,0,.6);
+  border-radius:10px;
+  border: 5px solid rgba(0,255,0,.8);
+}
+#login_page{
+  background:  qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 0, 0, 255), stop:1 rgba(0, 255, 0, 255)), url(assets/bg-picture.png) no-repeat center center fixed; 
+}
+
+
+#request_frame:hover {
+  background-color: rgb(255,100,100)
+
+}
+#request_frame QLabel {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+#request_label_frame QLabel {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+#request_scroll_area {
+  background: rgba(0,0,0,0);
+  border: 0;
+}
+#request_center_frame {
+  background: qlineargradient(
+      x1: 0 y1: 0,
+      x2: 0 y2: 1,
+      stop: 0 rgba(0, 66, 30, 150),
+      stop: 1 rgb(0,0,0)
+    );
+}
+
+#reject_button {
+  background: rgb(185,0,0);
+}
+#reject_button:hover {
+  background: rgb(100,0,0);
+}
+#approve_button {
+  background: rgb(0,185,0);
+}
+#approve_button:hover {
+  background: rgb(0,100,0);
+}
+#button_frame QPushButton{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
